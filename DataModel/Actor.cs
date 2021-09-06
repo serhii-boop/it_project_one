@@ -10,7 +10,7 @@ namespace lab4_films.DataModel
     public class Actor
     {
         [Key]
-        public int actor_id { get; set; }
+        public int actors_id { get; set; }
         [Required]
         public string name { get; set; }
         [Required]
